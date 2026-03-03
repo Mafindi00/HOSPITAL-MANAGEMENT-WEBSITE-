@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment - AL-HIKMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="appointment.html">Appointment</a>
+    <a href="login.html">Login</a>
+</nav>
+
+<div class="container">
+    <h2>Book Appointment</h2>
+
+    <input type="text" id="name" placeholder="Your Name"><br>
+    <input type="email" id="email" placeholder="Your Email"><br>
+    <input type="date" id="date"><br>
+
+    <select id="department">
+        <option>General</option>
+        <option>Surgery</option>
+        <option>Maternity</option>
+        <option>Laboratory</option>
+    </select><br>
+
+    <button onclick="bookAppointment()">Submit</button>
+
+    <p id="message"></p>
+</div>
+
+<footer>
+    © 2026 AL-HIKMA Hospital
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
